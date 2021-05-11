@@ -29,7 +29,8 @@
         "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
         "hidden": false,
         "name": "ZSH",
-        "source": "Windows.Terminal.Wsl"
+        "source": "Windows.Terminal.Wsl",
+        "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\arthurandrade\\dev"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -60,6 +61,29 @@
       "brightRed": "#f4005f",
       "brightWhite": "#f6f6ef",
       "brightYellow": "#fa8419"
+    },
+    {
+      "name": "Great Dreamer",
+      "background": "#1D1A24",
+      "black": "#1A1A1A",
+      "blue": "#9D65FF",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#58D1EB",
+      "foreground": "#C4C5B5",
+      "green": "#98E024",
+      "purple": "#F4005F",
+      "red": "#F4005F",
+      "selectionBackground": "#FFFFFF",
+      "white": "#C4C5B5",
+      "yellow": "#FA8419",
+      "brightBlack": "#625E4C",
+      "brightBlue": "#FF65F7",
+      "brightCyan": "#58D1EB",
+      "brightGreen": "#98E024",
+      "brightPurple": "#F4005F",
+      "brightRed": "#F4005F",
+      "brightWhite": "#F6F6EF",
+      "brightYellow": "#E0D561",
     }
   ],
   "actions": [
