@@ -34,7 +34,6 @@ hash -d prog=/mnt/x/OneDrive/Programming
 hash -d vscode=/mnt/c/Users/win-user/AppData/Local/Programs/Microsoft\ VS\ Code
 # Aliases
 alias home="cd ~home"
-alias vscode="~vscode/Code.exe"
 alias dev="cd ~dev"
 alias 404dev="cd ~404dev"
 alias prog="cd ~prog"
@@ -55,6 +54,7 @@ alias gs="git status"
 alias gss="git status -s"
 alias gd="git diff"
 alias gds="git diff --stat"
+alias gundo="git reset --soft HEAD~1"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
