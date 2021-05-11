@@ -1,0 +1,78 @@
+{
+  "showTabsInTitlebar": false,
+  "alwaysShowTabs": false,
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "copyOnSelect": false,
+  "copyFormatting": false,
+  "profiles": {
+    "defaults": {
+      "fontFace": "MesloLGS NF",
+      "fontSize": 16,
+      "cursorShape": "filledBox",
+      "colorScheme": "Great Sleeper"
+    },
+    "list": [
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe",
+        "hidden": false
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Command Prompt",
+        "commandline": "cmd.exe",
+        "hidden": false
+      },
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "ZSH",
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure",
+        "hidden": true
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Great Sleeper",
+      "background": "#181B28",
+      "black": "#1a1a1a",
+      "blue": "#9d65ff",
+      "cyan": "#58d1eb",
+      "foreground": "#c4c5b5",
+      "green": "#58ebd7",
+      "purple": "#ff65f7",
+      "red": "#f4005f",
+      "white": "#c4c5b5",
+      "yellow": "#fa8419",
+      "brightBlack": "#625e4c",
+      "brightBlue": "#9d65ff",
+      "brightCyan": "#58d1eb",
+      "brightGreen": "#98e024",
+      "brightPurple": "#ff65f7",
+      "brightRed": "#f4005f",
+      "brightWhite": "#f6f6ef",
+      "brightYellow": "#fa8419"
+    }
+  ],
+  "actions": [
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" },
+    { "command": "find", "keys": "ctrl+shift+f" },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ]
+}
